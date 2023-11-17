@@ -1,5 +1,7 @@
 # Table of contents
 
-* [Glossary](README.md)
-* [Computer Networking](computer-networking.md)
-* [Kubernetes Networking](kubernetes-networking.md)
+* [Computer Networking](README.md)
+* [Kubernetes Networking](kubernetes-networking/README.md)
+  * [Ingress](kubernetes-networking/ingress.md)
+  * [Service](kubernetes-networking/service.md)
+* [Glossary](<README (1).md>)

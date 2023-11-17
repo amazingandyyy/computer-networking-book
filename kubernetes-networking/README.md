@@ -1,6 +1,8 @@
 # Kubernetes Networking
 
-Container-to-Container Communication
+{% embed url="https://kodekloud.com/blog/kubernetes-networking-explained/" %}
+
+### Container-to-Container Communication <a href="#container-to-container-communication" id="container-to-container-communication"></a>
 
 In Kubernetes, a Pod is the basic unit of deployment. Containers in one pod even share the SAME _network namespace_, they can communicate with each other through localhost.
 
@@ -30,9 +32,7 @@ For a LoadBalancer Service to work, it is required to use Kubernetes on a cloud 
 
 ### External-to-Service Communication (Ingress) <a href="#external-to-service-communication" id="external-to-service-communication"></a>
 
-{% embed url="https://kodekloud.com/blog/kubernetes-ingress/" %}
-
-
+Kubernetes ingress acts as a layer between your services and the outside world, providing load balancing, SSL termination, and routing based on your defined rules.
 
 \---
 
