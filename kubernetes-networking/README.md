@@ -2,6 +2,8 @@
 
 {% embed url="https://kodekloud.com/blog/kubernetes-networking-explained/" %}
 
+<figure><img src="../.gitbook/assets/k8s-networking.drawio.png" alt=""><figcaption></figcaption></figure>
+
 ### Container-to-Container Communication <a href="#container-to-container-communication" id="container-to-container-communication"></a>
 
 In Kubernetes, a Pod is the basic unit of deployment. Containers in one pod even share the SAME _network namespace_, they can communicate with each other through localhost.
