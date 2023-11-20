@@ -1,3 +1,11 @@
 # Service
 
-{% embed url="https://kodekloud.com/blog/kubernetes-services/#loadbalancer-service" %}
+###
+
+###
+
+###
+
+### Resources
+
+{% embed url="https://kodekloud.com/blog/kubernetes-services/" %}
